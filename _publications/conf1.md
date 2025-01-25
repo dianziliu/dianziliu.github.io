@@ -8,7 +8,7 @@ date: 2023-10-23
 venue: "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM'23, CCF B)"
 paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[3][CIKM23]TSE.pdf'
 coderul: 'https://github.com/dianziliu/TSE.git'
-citation: 'Zhen Yang, Junrui Liu, TOng Li, Di Wu, Shiqiu Yang, Huan Liu. (2023). &quot;Paper Title Number 2.&quot; <i>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</i>. 2023: 2928-2938.'
+citation: 'Zhen Yang, **Junrui Liu**, TOng Li, Di Wu, Shiqiu Yang, Huan Liu. (2023). &quot;Paper Title Number 2.&quot; <i>Proceedings of the 32nd ACM International Conference on Information and Knowledge Management</i>. 2023: 2928-2938.'
 ---
 
 
