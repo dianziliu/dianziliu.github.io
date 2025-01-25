@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
   // These should be the same as the settings in _variables.scss
-  scssLarge = 925; // pixels
+  scssLarge = 1280; // pixels
 
   // Sticky footer
   var bumpIt = function() {
