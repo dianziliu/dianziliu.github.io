@@ -3,6 +3,7 @@ title: "A Two-tier Shared Embedding Method for Review-basedRecommender Systems"
 collection: publications
 category: manuscripts
 permalink: /publication/conf1
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-23
 venue: 'Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM'23, CCF B)'
 paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[3][CIKM'23]TSE.pdf'
