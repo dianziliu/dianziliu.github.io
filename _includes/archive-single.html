@@ -12,8 +12,8 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="max-width: 1200px; margin: 0 auto;">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="max-width: 1000px; margin: 0 auto; padding: 10px;">
+<div class="{{ include.type | default: "list" }}__item" style="max-width: 1200px; margin: 0 auto; padding: 1px;">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="max-width: 800px; margin: 0 auto; padding: 10px;">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
