@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Junrui Liu / Ph.D. at BJUT"
+title                    : "HOME"
 title_separator          : "-"
 name                     : &name "Junrui Liu (刘俊锐)"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Junrui Liu (刘俊锐)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. at BJUT"
   location         : "Singapore"
   employer         : "BJUT"
   uri              : # URL
