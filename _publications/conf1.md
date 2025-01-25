@@ -1,7 +1,7 @@
 ---
 title: "A Two-tier Shared Embedding Method for Review-basedRecommender Systems"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/conf1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-10-23
