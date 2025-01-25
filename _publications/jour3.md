@@ -4,9 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/jour3
 date: 2024-01-01
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 venue: 'Data & Knowledge Engineering (DKE, CCF B)'
-paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[4][DKE'24]PBFL.pdf'
+paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[4][DKE24]PBFL.pdf'
 coderul:''
 citation: 'Junrui Liu, Tong Li, Zhen Yang, Di Wu, Huan Liu. (2024). &quot;Fusion learning of preference and bias from ratings and reviews foritem recommendation".&quot; <i>Data & Knowledge Engineering</i>. 150:102283.'
 ---
