@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/jour3
 date: 2024-01-01
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 venue: 'Data & Knowledge Engineering (DKE, CCF B)'
 paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[4][DKE'24]PBFL.pdf'
 coderul:''

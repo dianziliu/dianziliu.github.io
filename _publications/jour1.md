@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/jourl
 date: 2022-03-15'
+
 venue: 'Knowledge-Based Systems (KBS)'
 paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[1][KBS'22]SPR Similarity pairwise ranking for personalized recommendation.pdf'
 citation: 'Junrui Liu, Zhen Yang, Tong Li, Di Wu, Ruiyi Wang. (2022). &quot;SPR:Similaritypairwiserankingforpersonalizedrecommendation.&quot; <i>Knowledge-Based Systems</i>. 239:107828.'

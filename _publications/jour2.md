@@ -4,6 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/jour2
 date: 2024-10-27
+
 venue: 'International Journal of Software Engineeringand Knowledge Engineer (IJSEKE, CCF C)'
 paperurl: 'https://github.com/dianziliu/dianziliu.github.io/blob/master/files/[2][IJSEKE'22]FAC A Music Recommendation Model Based on Fusing'
 citation: 'Wette Feng, Junrui Liu, Tong Li, Zhen Yang, Di Wu. (2024). &quot;FAC: A Music Recommendation Model Based on FusingAudio and Chord Features (115.&quot; <i>International Journal of Software Engineeringand Knowledge Engineer</i>. Vol. 32, Nos. 11 & 12 (2022) 1753–1770.'
