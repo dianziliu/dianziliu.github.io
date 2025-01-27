@@ -1,7 +1,7 @@
 ---
 title: 'Recommendation Books'
-date: 2012-08-14
-permalink: /rec_books
+date: 2025-01-27
+permalink: /posts/rec_books
 tags:
   - cool posts
   - category1
