@@ -1,7 +1,7 @@
 ---
 title: 'Recommendation Books'
 date: 2025-01-27
-permalink: /posts/rec_books
+permalink: /posts/2025/01/rec_books/
 tags:
   - cool posts
   - category1
