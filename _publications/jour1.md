@@ -1,5 +1,5 @@
 ---
-title: "SPR:Similarity pairwise ranking for personalized recommendation"
+title: "SPR: Similarity pairwise ranking for personalized recommendation"
 collection: publications
 category: manuscripts
 permalink: /publication/jourl
