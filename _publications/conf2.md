@@ -6,7 +6,7 @@ permalink: /publication/conf2
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-03-10
 venue: "Proceedings of the 18th ACM International Conference on Web Search and Data Mining (WSDM'25, CCF B)"
-# paperurl: ''
+paperurl: 'https://dianziliu.github.io/files/aph_wsdm25.pdf'
 codeurl: ''
 citation: '**Junrui Liu**, Tong Li, Di Wu, Zifang Tang, Yuan Fang, Zhen Yang (2025). &quot;An aspect performance-aware hypergraph neural network for review-based recommendation &quot; <i>Proceedings of the 18th ACM International Conference on Web Search and Data Mining</i>. 2025.'
 ---
