@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 <!-- # Biography -->
-I am Junrui Liu (刘俊锐), a Ph.D student at Beijing University of Technology (BJUT) with Prof Yang and Prof. Li. Since March 2024, I have begun visiting Singapore Management University (SMU) and studying with Prof Fang.
+I am Junrui Liu (刘俊锐), a lecturer at Beijing Institute of Graphic Communication (BIGC).
+I received my Ph.D. degree from Beijing University of Technology (BUPT) in 2025.
 
 
 # Research Interest
