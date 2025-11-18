@@ -18,7 +18,9 @@ Data mining, Recommendation, Neurl Language Process, Graph Neural Networks
 
 # News
 
-Although there has been no good news recently, I hope everything is well.
+- **2025-09-18**: 热烈庆祝我们的论文被 RecSys '25 接收为 Spotlight！🍾
+
+  Congratulations — our paper was accepted as a Spotlight at RecSys '25.
 
 
 
