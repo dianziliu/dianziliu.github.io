@@ -9,7 +9,7 @@ redirect_from:
 
 <!-- # Biography -->
 I am Junrui Liu (刘俊锐), a lecturer at Beijing Institute of Graphic Communication (BIGC).
-I received my Ph.D. degree from Beijing University of Technology (BUPT) in 2025.
+I received my Ph.D. degree from Beijing University of Technology (BJUT) in 2025.
 
 
 # Research Interest
