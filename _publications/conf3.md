@@ -1,5 +1,5 @@
 ---
-title: "A Multi-Factor Collaborative Prediction for Review-based Recommendation" (Spotlight)
+title: "A Multi-Factor Collaborative Prediction for Review-based Recommendation (Spotlight)"
 collection: publications
 category: conferences
 paperurl: ''
