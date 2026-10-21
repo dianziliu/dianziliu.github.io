@@ -1,0 +1,40 @@
+
+/* ==============================
+   Compact Publications
+   ============================== */
+
+.pub-item {
+  margin-bottom: 1.1rem;
+  line-height: 1.45;
+}
+
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.pub-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: #4f46e5;
+}
+
+.pub-citation {
+  font-size: 0.82rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 0.2rem;
+}
+
+.pub-links {
+  font-size: 0.8rem;
+}
+
+.pub-links a {
+  margin-right: 0.5rem;
+  text-decoration: none;
+}

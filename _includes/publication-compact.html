@@ -1,0 +1,26 @@
+
+<div class="pub-item">
+  <div class="pub-title">
+    <a href="{{ post.paperurl | default: post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+  </div>
+
+  {% if post.citation %}
+  <div class="pub-citation">
+    {{ post.citation | remove: 'Recommended citation:' }}
+  </div>
+  {% endif %}
+
+  <div class="pub-links">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">[PDF]</a>
+    {% endif %}
+    {% if post.codeurl %}
+      <a href="{{ post.codeurl }}">[Code]</a>
+    {% endif %}
+    {% if post.slidesurl %}
+      <a href="{{ post.slidesurl }}">[Slides]</a>
+    {% endif %}
+  </div>
+</div>
