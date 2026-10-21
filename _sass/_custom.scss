@@ -38,3 +38,100 @@
   margin-right: 0.5rem;
   text-decoration: none;
 }
+
+
+/* ===================================
+   Compact Publications
+   =================================== */
+
+/* 论文列表 */
+.pub-item {
+  margin: 0 0 1.1rem 0;
+  padding: 0;
+  line-height: 1.45;
+  clear: both;
+}
+
+/* 论文标题 */
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: #4f46e5;
+    }
+  }
+}
+
+/* 作者、期刊信息 */
+.pub-citation {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+
+/* PDF / Code 链接 */
+.pub-links {
+  font-size: 0.8rem;
+
+  a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+  }
+}
+
+/* ===================================
+   Publications Layout Fix
+   =================================== */
+
+/* 桌面端：防止个人简介与论文重叠 */
+@media (min-width: 1024px) {
+
+  #main > .sidebar {
+    float: left;
+    position: relative;
+    width: 20%;
+    max-width: 230px;
+    margin-right: 0;
+    padding-top: 0;
+    height: auto;
+    overflow: visible;
+  }
+
+  #main > .archive {
+    float: right;
+    width: 76%;
+    margin-left: 0;
+    padding-left: 0;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* 移动端 */
+@media (max-width: 1023px) {
+
+  #main > .sidebar,
+  #main > .archive {
+    float: none;
+    position: relative;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
+
+/* 避免长标题撑开内容区域 */
+.pub-item,
+.pub-title,
+.pub-citation {
+  overflow-wrap: anywhere;
+}
