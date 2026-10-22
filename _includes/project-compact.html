@@ -1,65 +1,53 @@
 
 {% assign project = include.project %}
 
-<div class="project-item">
+<div class="pub-item">
 
-  <!-- 项目名称 -->
-  <div class="project-title">
+  <!-- Project Title -->
+  <div class="pub-title">
     <a href="{{ project.url | relative_url }}">
-      {{ project.title }}
+      {{ project.title | escape }}
     </a>
   </div>
 
-  <!-- 承担角色与时间 -->
-  <div class="project-info">
+  <!-- Project Information -->
+  <div class="pub-citation">
 
     {% if project.role == "pi" %}
-      <span class="project-role">Principal Investigator</span>
+      Principal Investigator
     {% elsif project.role == "co_pi" %}
-      <span class="project-role">Co-Principal Investigator</span>
+      Co-Principal Investigator
     {% elsif project.role == "participant" %}
-      <span class="project-role">Participant</span>
+      Participant
+    {% elsif project.role %}
+      {{ project.role }}
+    {% endif %}
+
+    {% if project.funding %}
+      · {{ project.funding }}
     {% endif %}
 
     {% if project.start_year %}
-      <span class="project-period">
-        {{ project.start_year }}–{{ project.end_year | default: "Present" }}
-      </span>
+      · {{ project.start_year }}–{{ project.end_year | default: "Present" }}
     {% endif %}
 
   </div>
 
-  <!-- 资助单位 -->
-  {% if project.funding %}
-    <div class="project-meta">
-      <strong>Funding:</strong>
-      {{ project.funding }}
-    </div>
-  {% endif %}
-
-  <!-- 项目编号和总经费 -->
-  <div class="project-meta">
+  <!-- Grant Information -->
+  {% if project.grant_number or project.total_funding != nil %}
+  <div class="pub-links">
 
     {% if project.grant_number %}
-      <span>
-        <strong>Grant No.:</strong>
-        {{ project.grant_number }}
-      </span>
+      Grant No.: {{ project.grant_number }}
     {% endif %}
 
     {% if project.total_funding != nil %}
-      <span>
-        <strong>Total Funding:</strong>
-        ¥{{ project.total_funding }}0,000
-      </span>
+      {% if project.grant_number %} · {% endif %}
+      Total Funding:
+      {{ project.total_funding }} × 10,000 CNY
     {% endif %}
 
   </div>
-
-  {% if project.summary %}
-    <div class="project-summary">
-      {{ project.summary }}
-    </div>
   {% endif %}
 
 </div>

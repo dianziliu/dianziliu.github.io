@@ -1,4 +1,3 @@
-
 ---
 layout: archive
 title: "Research Projects"
@@ -8,26 +7,60 @@ author_profile: true
 
 {% assign projects = site.project | sort: "start_year" | reverse %}
 
-## Ongoing Projects
-
+{% assign ongoing_count = 0 %}
 {% for post in projects %}
   {% if post.status == "ongoing" %}
-    {% include project-compact.html project=post %}
+    {% assign ongoing_count = ongoing_count | plus: 1 %}
   {% endif %}
 {% endfor %}
 
-## Completed Projects
+{% if ongoing_count > 0 %}
+  <h2>Ongoing Projects</h2>
+  <hr />
 
+  {% for post in projects %}
+    {% if post.status == "ongoing" %}
+      {% include project-compact.html project=post %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign completed_count = 0 %}
 {% for post in projects %}
   {% if post.status == "completed" %}
-    {% include project-compact.html project=post %}
+    {% assign completed_count = completed_count | plus: 1 %}
   {% endif %}
 {% endfor %}
 
-## Other Projects
+{% if completed_count > 0 %}
+  <h2>Completed Projects</h2>
+  <hr />
 
+  {% for post in projects %}
+    {% if post.status == "completed" %}
+      {% include project-compact.html project=post %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% assign other_count = 0 %}
 {% for post in projects %}
   {% unless post.status == "ongoing" or post.status == "completed" %}
-    {% include project-compact.html project=post %}
+    {% assign other_count = other_count | plus: 1 %}
   {% endunless %}
 {% endfor %}
+
+{% if other_count > 0 %}
+  <h2>Other Projects</h2>
+  <hr />
+
+  {% for post in projects %}
+    {% unless post.status == "ongoing" or post.status == "completed" %}
+      {% include project-compact.html project=post %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
+
+{% if projects.size == 0 %}
+  <p>No research projects available.</p>
+{% endif %}
