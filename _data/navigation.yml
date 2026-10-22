@@ -19,7 +19,10 @@ main:
     
   - title: "Project"
     url: /project/
-        
+
+  - title: "Students"
+    url: /students/
+
   # - title: "Blog Posts"
   #   url: /year-archive/
     
