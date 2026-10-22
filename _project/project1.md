@@ -1,6 +1,6 @@
-
 ---
 title: "Personalized Knowledge Organization and Intelligent Publishing"
+collection: project
 date: 2027-01-01
 start_year: 2027
 end_year: 2028

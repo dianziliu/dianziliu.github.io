@@ -4,8 +4,6 @@ title: "Students"
 permalink: /students/
 author_profile: true
 ---
-
-
 ## Current Graduate Students
 
 | Name          | Program             | Research Interests                |
@@ -13,12 +11,16 @@ author_profile: true
 | Jinglin Zhang | M.S., 2025–Present | Data Mining& Recommender Systems |
 | Chenxu Yan    | M.S., 2026–Present | APT detection                     |
 
-## Current Undergraduate Students
-| Name          | Program             | Research Interests                |
-| ------------- | ------------------- | --------------------------------- |
-| Yuxin Li | B.E., 2025–Present |  Intelligent Publishing‌  |
-| Shuai Zhu| B.e., 2026–Present |  Intelligent Publishing‌            |
 
+
+
+
+## Current Undergraduate Students
+
+| Name      | Program             | Research Interests       |
+| --------- | ------------------- | ------------------------ |
+| Yuxin Li  | B.E., 2025–Present | Intelligent Publishing‌ |
+| Shuai Zhu | B.E., 2026–Present | Intelligent Publishing‌ |
 
 <!-- ## Alumni
 
