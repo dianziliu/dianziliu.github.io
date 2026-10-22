@@ -25,7 +25,7 @@ author:
   name             : "Junrui Liu (刘俊锐)"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer"
-  location         : "China"
+  location         : "Beijing,China"
   employer         : "BIGC"
   uri              : # URL
   email            : "liujunrui@bigc.edu.cn" 
@@ -292,7 +292,7 @@ defaults:
       author_profile: true
       share: false
       comments: false
-      
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
