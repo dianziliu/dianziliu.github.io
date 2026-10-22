@@ -22,9 +22,9 @@ end_year: 2028
 
 # 简要介绍（可选）
 summary: "项目主要研究内容和目标。"
----
 
 ---
+
 This project investigates personalized knowledge
 organization and intelligent publishing,
 including demand-driven knowledge selection,

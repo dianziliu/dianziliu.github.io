@@ -21,7 +21,7 @@ end_year: 2027.12
 
 # 简要介绍（可选）
 summary: "项目主要研究内容和目标。"
----
+
 ---
 
 This project investigates personalized knowledge
