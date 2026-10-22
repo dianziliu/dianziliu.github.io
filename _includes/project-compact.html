@@ -1,0 +1,65 @@
+
+{% assign project = include.project %}
+
+<div class="project-item">
+
+  <!-- 项目名称 -->
+  <div class="project-title">
+    <a href="{{ project.url | relative_url }}">
+      {{ project.title }}
+    </a>
+  </div>
+
+  <!-- 承担角色与时间 -->
+  <div class="project-info">
+
+    {% if project.role == "pi" %}
+      <span class="project-role">Principal Investigator</span>
+    {% elsif project.role == "co_pi" %}
+      <span class="project-role">Co-Principal Investigator</span>
+    {% elsif project.role == "participant" %}
+      <span class="project-role">Participant</span>
+    {% endif %}
+
+    {% if project.start_year %}
+      <span class="project-period">
+        {{ project.start_year }}–{{ project.end_year | default: "Present" }}
+      </span>
+    {% endif %}
+
+  </div>
+
+  <!-- 资助单位 -->
+  {% if project.funding %}
+    <div class="project-meta">
+      <strong>Funding:</strong>
+      {{ project.funding }}
+    </div>
+  {% endif %}
+
+  <!-- 项目编号和总经费 -->
+  <div class="project-meta">
+
+    {% if project.grant_number %}
+      <span>
+        <strong>Grant No.:</strong>
+        {{ project.grant_number }}
+      </span>
+    {% endif %}
+
+    {% if project.total_funding != nil %}
+      <span>
+        <strong>Total Funding:</strong>
+        ¥{{ project.total_funding }}0,000
+      </span>
+    {% endif %}
+
+  </div>
+
+  {% if project.summary %}
+    <div class="project-summary">
+      {{ project.summary }}
+    </div>
+  {% endif %}
+
+</div>

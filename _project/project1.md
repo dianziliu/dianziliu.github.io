@@ -1,15 +1,29 @@
+
 ---
-title: "Personalized Knowledge Organization and Intelligent Publishing"
-collection: project
-date: 2027-01-01
-start_year: 2027
-end_year: 2028
+title: "项目正式名称"
+
+permalink: /project/project-01/
+
 status: ongoing
 
-funding: "Funding agency to be confirmed"
-role: "Project role to be confirmed"
+# 项目承担角色
+role: pi
 
-permalink: /project/personalized-publishing/
+# 资助信息
+funding: "资助单位名称"
+grant_number: "项目编号"
+
+# 项目总经费，单位：万元人民币
+total_funding: 20
+
+# 起止时间
+start_year: 2026
+end_year: 2028
+
+# 简要介绍（可选）
+summary: "项目主要研究内容和目标。"
+---
+
 ---
 This project investigates personalized knowledge
 organization and intelligent publishing,

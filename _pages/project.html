@@ -1,12 +1,33 @@
+
 ---
 layout: archive
-title: "Project"
+title: "Research Projects"
 permalink: /project/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign projects = site.project | sort: "start_year" | reverse %}
 
-{% for post in site.project reversed %}
-  {% include archive-single.html %}
+## Ongoing Projects
+
+{% for post in projects %}
+  {% if post.status == "ongoing" %}
+    {% include project-compact.html project=post %}
+  {% endif %}
+{% endfor %}
+
+## Completed Projects
+
+{% for post in projects %}
+  {% if post.status == "completed" %}
+    {% include project-compact.html project=post %}
+  {% endif %}
+{% endfor %}
+
+## Other Projects
+
+{% for post in projects %}
+  {% unless post.status == "ongoing" or post.status == "completed" %}
+    {% include project-compact.html project=post %}
+  {% endunless %}
 {% endfor %}
