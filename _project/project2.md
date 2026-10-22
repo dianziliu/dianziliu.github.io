@@ -3,14 +3,14 @@ title: "智能出版赋能全国文化中心建设路径与方式研究"
 
 permalink: /project/project-02/
 
-status: ongoing
+status: Completed
 
 # 项目承担角色
 role: pi
 
 # 资助信息
-funding: "BIGC"
-grant_number: "项目编号"
+funding: "BIGC, Research Project on the Paths and Methods for Beijing Institute of Graphic Communication to Serve the Development of the National Cultural Center (北京印刷学院服务全国文化中心建设路径与方式研究项目)"
+grant_number: "Ew202605"
 
 # 项目总经费，单位：万元人民币
 total_funding: 1
@@ -25,8 +25,4 @@ summary: "项目主要研究内容和目标。"
 
 ---
 
-This project investigates personalized knowledge
-organization and intelligent publishing,
-including demand-driven knowledge selection,
-adaptive content recommendation, and
-trustworthy copyright management.
+在面对各类文化资源快速增长、用户需求个性化以及文化价值深度开发需求时，传统文化资源存在资源关联不足、传播精准性不足和服务模式相对固化等问题。如何利用人工智能技术重构文化资源组织、传播和服务体系，成为推动文化行业高质量发展的重要课题。本研究围绕“智能出版”，系统分析智能出版发展的技术基础、作用机制及应用路径。研究指出，智能出版依托知识图谱、智能推荐、数字版权保护等关键技术，推动文化资源向“智能知识体系”、 “精准传播”、 “智能服务”转变，并进一步促进文化资源价值由一次性传播向持续性运营演进。面向北京全国文化中心建设需求，研究提出以文化数据新基建为基础，构建智能文化资源底座、智慧文化服务体系和文化价值运营模式，推动北京特色文化资源的智能化开发利用，提升公共文化服务能力和文化产业创新能力。同时，结合北京印刷学院特色优势，提出通过学科交叉融合、复合型人才培养、科研组织创新和社会服务体系建设，形成支撑智能出版发展的高校创新路径。

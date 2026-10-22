@@ -1,6 +1,5 @@
-
 ---
-title: "项目正式名称"
+title: "新进教师资助计划项目--大语言模型增强基于评论的推荐"
 
 permalink: /project/project-01/
 
@@ -10,23 +9,18 @@ status: ongoing
 role: pi
 
 # 资助信息
-funding: "资助单位名称"
-grant_number: "项目编号"
+funding: "北京印刷学院"
+grant_number: "Ee202514"
 
 # 项目总经费，单位：万元人民币
-total_funding: 20
+total_funding: 5
 
 # 起止时间
-start_year: 2026
-end_year: 2028
+start_year: 2025.11
+end_year: 2027.12
 
 # 简要介绍（可选）
 summary: "项目主要研究内容和目标。"
-
 ---
-
-This project investigates personalized knowledge
-organization and intelligent publishing,
-including demand-driven knowledge selection,
-adaptive content recommendation, and
-trustworthy copyright management.
+基于评论的推荐系统能够吸纳用户的意见，提供高质量、多样化、个性化的推荐结果，在政企服务中起着关键作用。现有方法主要依赖历史评论提取用户偏好，但难以历全面反映目标物品的特点和用户的实际需求，导致推荐结果的准确性和解释性不足。本项目拟围绕用户评价机制开展研究，构建大语言模型增强的基于评论的推荐系统。首先，研究用户在物品方面选择中的关注机制，提出融合方面术语与方面类别的偏 好建模方法，以缓解术语稀疏问题并有效刻画用户的显式偏好特征；其次，研究评论中的讽刺表达机制，提出大语言模型驱动的讽刺检测与语义还原方法，以缓解评论与评分不一致带来的偏差，挖掘用户真实意图；最后，研究用户评论的生成过程，提出结合方面信息与隐含语义的大模型评论生成方法，从生成评论中提取用户对目标物品的需求与物品特征匹配关系。通过上述研究，项目旨在提升基
+于评论的推荐系统的准确性、可解释性和鲁棒性。
