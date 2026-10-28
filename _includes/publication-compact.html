@@ -1,26 +1,49 @@
 
 <div class="pub-item">
+
+  <!-- 论文标题：优先跳转官方页面 -->
   <div class="pub-title">
-    <a href="{{ post.paperurl | default: post.url | relative_url }}">
-      {{ post.title }}
-    </a>
+    {% if post.official_url %}
+      <a href="{{ post.official_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        {{ post.title }}
+      </a>
+    {% else %}
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    {% endif %}
   </div>
 
+  <!-- 论文引用信息 -->
   {% if post.citation %}
   <div class="pub-citation">
     {{ post.citation | remove: 'Recommended citation:' }}
   </div>
   {% endif %}
 
+  <!-- 论文相关资源 -->
   <div class="pub-links">
+
     {% if post.paperurl %}
-      <a href="{{ post.paperurl }}">[PDF]</a>
+      <a href="{{ post.paperurl }}"
+         target="_blank"
+         rel="noopener noreferrer">[PDF]</a>
     {% endif %}
+
     {% if post.codeurl %}
-      <a href="{{ post.codeurl }}">[Code]</a>
+      <a href="{{ post.codeurl }}"
+         target="_blank"
+         rel="noopener noreferrer">[Code]</a>
     {% endif %}
+
     {% if post.slidesurl %}
-      <a href="{{ post.slidesurl }}">[Slides]</a>
+      <a href="{{ post.slidesurl }}"
+         target="_blank"
+         rel="noopener noreferrer">[Slides]</a>
     {% endif %}
+
   </div>
+
 </div>
