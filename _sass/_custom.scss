@@ -92,10 +92,12 @@
 /* Publication Badges */
 
 .pub-badges {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 4px;
-  margin-bottom: 5px;
+  margin-right: 6px;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
 .pub-venue,
