@@ -1,6 +1,6 @@
 ---
 title: "FAC: A Music Recommendation Model Based on FusingAudio and Chord Features (115)"
-venue_short: KBS
+venue_short: SEKE
 pub_year: 2022
 rank: CCF-C
 collection: publications

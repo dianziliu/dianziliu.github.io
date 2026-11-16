@@ -4,12 +4,12 @@
   <div class="pub-title">
       <!-- 论文发表徽章 -->
   {% if post.venue_short %}
-  <span  class="pub-badges">
+  <span class="pub-badges">
     <span class="pub-venue">{{ post.venue_short }}</span>
     {% if post.pub_year %}
       <span class="pub-year">{{ post.pub_year }}</span>
     {% endif %}
-  </span >
+  </span>
   {% endif %}
     {% if post.official_url %}
       <a href="{{ post.official_url }}"
