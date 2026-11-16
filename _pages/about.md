@@ -15,7 +15,7 @@ Hope to build a connection with you!
 
 # News
 
-- 2026-09-21: 祝贺张婧霖同学的论文被DependSys‘ 26 接收为常规全文！🍾
+- **2026-09-21**: 祝贺张婧霖同学的论文被DependSys‘ 26 接收为常规全文！🍾
 
 	Congratulations — Jinglin Zhang's paper was accepted as a REGULAR FULL PAPER at DependSys‘ 26.
 

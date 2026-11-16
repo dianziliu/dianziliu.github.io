@@ -1,7 +1,7 @@
 ---
 title: "Fusion learning of preference and bias from ratings and reviews foritem recommendation"
 venue_short: DKE
-pub_year: 2022
+pub_year: 2024
 rank: CCF-B
 collection: publications
 category: manuscripts
