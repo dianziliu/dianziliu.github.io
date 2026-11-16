@@ -1,5 +1,8 @@
 ---
 title: "A Multi-Factor Collaborative Prediction for Review-based Recommendation"
+venue_short: RecSys
+pub_year: 2025
+rank: CCF-B
 collection: publications
 category: conferences
 official_url: 'https://doi.org/10.1145/3705328.3748062'

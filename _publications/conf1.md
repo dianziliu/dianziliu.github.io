@@ -1,5 +1,8 @@
 ---
 title: "A Two-tier Shared Embedding Method for Review-basedRecommender Systems"
+venue_short: CIKM
+pub_year: 2023
+rank: CCF-B
 collection: publications
 category: conferences
 official_url: 'https://doi.org/10.1145/3583780.3614770'

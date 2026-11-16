@@ -1,5 +1,8 @@
 ---
 title: "Fusion learning of preference and bias from ratings and reviews foritem recommendation"
+venue_short: KBS
+pub_year: 2022
+rank: CCF-B
 collection: publications
 category: manuscripts
 official_url: 'https://doi.org/10.1016/j.datak.2024.102283'

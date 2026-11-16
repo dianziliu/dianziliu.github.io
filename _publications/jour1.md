@@ -1,5 +1,8 @@
 ---
 title: "SPR: Similarity pairwise ranking for personalized recommendation"
+venue_short: KBS
+pub_year: 2022
+rank: SCI Q1
 collection: publications
 category: manuscripts
 official_url: 'https://doi.org/10.1016/j.knosys.2021.107828'

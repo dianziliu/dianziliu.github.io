@@ -1,5 +1,8 @@
 ---
 title: "LSA: A Long-Short-Term Aspect Interest Transformer for Aspect-Based Recommendation"
+venue_short: WISE
+pub_year: 2025
+rank: CCF-B
 collection: publications
 category: conferences
 official_url: 'https://doi.org/10.1007/978-981-95-7251-9_8'

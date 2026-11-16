@@ -1,5 +1,7 @@
 ---
 title: "ICAM: Inconsistency-aware Compensation and Adaptive Modeling for Review-Based Recommendation"
+venue_short: DependSys
+pub_year: 2026
 collection: publications
 category: conferences
 official_url: ''

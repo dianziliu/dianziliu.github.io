@@ -89,3 +89,29 @@
   }
 }
 
+/* Publication Badges */
+
+.pub-badges {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 5px;
+}
+
+.pub-venue,
+.pub-year {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.pub-venue {
+  background-color: #333333;
+}
+
+.pub-year {
+  background-color: #24477c;
+}

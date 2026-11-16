@@ -1,5 +1,8 @@
 ---
 title: "An aspect performance-aware hypergraph neural network for review-based recommendation"
+venue_short: WSDM
+pub_year: 2025
+rank: CCF-B
 collection: publications
 category: conferences
 official_url: 'https://doi.org/10.1145/3701551.3703528'
